@@ -137,7 +137,7 @@ def select_zone():
                     if r.status_code != 200:
                         print(f"Unable to add record ({record['label']} {record['type']} {record['ttl']} {record['value']}): {r.text}")
 
-            print(f"Zone {zone['zone']} migrated successfully!")
+            console.print(f"[bold green]Zone {zone['zone']} migrated successfully!")
 
 
 legacy_login()
