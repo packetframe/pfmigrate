@@ -1,6 +1,6 @@
 # Packetframe v4
 
-Packetframe has a new control plane! The old API, dashboard, and node orchestrator have been completely rewritten to improve stability and feature set. (See the [api](https://github.com/packetframe/api), [web](https://github.com/packetframe/web), and [infra](https://github.com/packetframe/infra) repos for the full source)
+Packetframe has a new control plane! The old API, dashboard, and node orchestrator have been completely rewritten to improve the stability and feature set. (See the [api](https://github.com/packetframe/api), [web](https://github.com/packetframe/web), and [infra](https://github.com/packetframe/infra) repos for the full source)
 
 The new version, dubbed "v4" is ready for beta testing!
 

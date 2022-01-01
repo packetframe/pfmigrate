@@ -10,8 +10,8 @@ install()
 
 console = Console()
 
-LEGACY_API = "https://packetframe.com/api"
-V4_API = "https://v4.packetframe.com/api"
+LEGACY_API = "https://legacy.packetframe.com/api"
+V4_API = "https://packetframe.com/api"
 
 PYINQUIRER_STYLE = style_from_dict({
     Token.Separator: "#6C6C6C",
