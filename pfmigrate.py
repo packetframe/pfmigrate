@@ -77,7 +77,7 @@ def v4_login():
     ], style=PYINQUIRER_STYLE)
 
     if account:
-        r = requests.request("POST", "https://v4.packetframe.com/api/user/login", json={
+        r = requests.request("POST", V4_API+"/user/login", json={
             "email": account["username"],
             "password": account["password"]
         })
